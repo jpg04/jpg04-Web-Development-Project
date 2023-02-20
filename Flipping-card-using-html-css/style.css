@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap");
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 48.5;
+}
+
+body{
+    background: orange;
+    font-family: 'Phudu', cursive;
+    font-weight: 400;
+    line-height: 1.7;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+.grids{
+    max-width: 126rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-colum
+}
