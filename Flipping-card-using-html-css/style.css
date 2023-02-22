@@ -2,34 +2,95 @@
 
 *,
 *::after,
-*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-html{
-    font-size: 48.5;
+html {
+  font-size: 48.5;
 }
 
-body{
-    background: orange;
-    font-family: 'Phudu', cursive;
-    font-weight: 400;
-    line-height: 1.7;
-    padding: 3rem;
-    box-sizing: border-box;
+body {
+  background: orange;
+  font-family: "Phudu", cursive;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 3rem;
+  box-sizing: border-box;
 }
 
-.grids{
-    max-width: 126rem;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap:3rem;
-    grid-row-gap: 3rem;
+.grids {
+  max-width: 126rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
 }
 
-.card-one{
-    grid-column: 1/4;
+.card-one {
+  grid-column: 1/4;
+}
+
+.card-two {
+  grid-column: 1/4;
+}
+.card-three {
+  grid-column: 1/4;
+}
+
+.card-four {
+  grid-column: 1/4;
+}
+
+.card-five {
+  grid-column: 1/4;
+}
+
+.card-six {
+  grid-column: 1/4;
+}
+
+.card-seven {
+  grid-column: 1/4;
+}
+
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 25rem;
+  width: 100%;
+  transition: all ease-in-out 400ms;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: translateY(-1px);
+}
+
+.card-side{
+    transition: all 0.8 ease;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25rem;
+    width: 100%;
+    backface-visibility: hidden;
+    box-shadow: 2px 4px 16px rgba(0,0,0,0.4);
+    border-radius: 8px;
+}
+
+.card-side--front{
+    background-color: #2196f3;
+    position: relative;
+    background-position: center;
 }
