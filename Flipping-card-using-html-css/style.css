@@ -93,4 +93,16 @@ body {
     background-color: #2196f3;
     position: relative;
     background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
 }
+
+.card-side--back{
+  background-color: #303f9f;
+  transform: rotateY(180deg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.show
