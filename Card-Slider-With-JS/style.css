@@ -29,7 +29,7 @@ h1{
     background-color: white;
     opacity: 0.5;
     top: 25%;
-    left: 25%;
+    right: 25%;
     width: 5%;
     height: 20%;
     z-index: 5;
@@ -42,7 +42,7 @@ h1{
     background-color: white;
     opacity: 0.5;
     top: 25%;
-    right: 25%;
+    left: 25%;
     width: 5%;
     height: 20%;
     z-index: 5;
