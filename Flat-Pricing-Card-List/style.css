@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --card-01-color-01:#ffb200;
+    --card-01-color-02:#ff9700;
+    --card-02-color-01:#96c110;
+    --card-02-color-02:#80ad0a;
+}
