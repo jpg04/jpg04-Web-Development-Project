@@ -61,3 +61,74 @@ body{
     margin-top: 60px;
 }
 
+.card-body .top-shape{
+    clip-path: polygon(0 0, 100% 0%, 50% 50% 75%, 0 50% );
+    height: 200px;
+}
+
+.card-01 .card-body .top-shape{
+    background: var(--card-01-color-01);
+}
+
+.card-02 .card-body .top-shape{
+    background: var(--card-02-color-01);
+}
+
+.card-03 .card-body .top-shape{
+    background: var(--card-03-color-01);
+}
+
+.card-body .top-shape::before{
+    content: '';
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 25%, 50% 50%, 0 25%);
+    width: 100%;
+    height: 200px;
+}
+
+.card-01 .card-body .top-shape::before{
+    background: var(--card-01-color-02);
+}
+
+.card-02 .card-body .top-shape::before{
+    background: var(--card-02-color-02);
+}
+
+.card-03 .card-body .top-shape::before{
+    background: var(--card-03-color-02);
+}
+
+.pricing{
+    z-index: 999;
+    font-family: var(--bebas-font);
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.price span{
+    font-size: 9em;
+    line-height: 100px;
+}
+
+.price sup{
+    font-size: 2em;
+    transform: translateY(-15px);
+}
+
+.pricing p{
+    font-family: var(--poppins-font);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.pricing .type{
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
