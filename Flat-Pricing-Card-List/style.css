@@ -317,7 +317,7 @@ body {
 }
 
 body{
-  background: var(--body-bg-color);
+  background: black;
 }
 
 .main-container{
@@ -405,11 +405,13 @@ body{
 }
 
 .price span{
+  color: white;
   font-size: 9em;
   line-height: 100px;
 }
 
 .price sup{
+  color: white;
   font-size: 2em;
   transform: translateY(-15px);
 }
