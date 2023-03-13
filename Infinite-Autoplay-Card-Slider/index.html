@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Autoplay Card Slider</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>CSS Autoplay Card Slider</h2>
+    <div id="sliderSetting">
+        <label for="slider-width">Slider width in px:</label>
+        <input type="text" id="slider-width" name="slider-width" minlength="2" maxlength="4" size="6" placeholder="300">
+
+        <label for="slider-height">Slider Height in px:</label>
+        <input type="text" id="slider-height" name="slider-height" minlength="2" maxlength="4" size="6" placeholder="300">
+    </div>
+
+    <div id="pSlider">
+        <ol id="slider-container" dir="ltr">
+            <li id="slide-1" class="li-slide">
+                <div class="slide-snapper"></div>
+                <a class="prev-slide" href="#slide-4"></a>
+                <a class="next-slide" href="#slide-2"></a>
+            </li>
+            <li id="slide-2" class="li-slide">
+                <div class="slide-snapper"></div>
+                <a class="prev-slide" href="#slide-1"></a>
+                <a class="next-slide" href="#slide-3"></a>
+            </li>
+            <li id="slide-3" class="li-slide">
+                <div class="slide-snapper"></div>
+                <a class="prev-slide" href="#slide-2"></a>
+                <a class="next-slide" href="#slide-4"></a>
+            </li>
+            <li id="slide-4" class="li-slide">
+                <div class="slide-snapper"></div>
+                <a class="prev-slide" href="#slide-3"></a>
+                <a class="next-slide" href="#slide-1"></a>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
